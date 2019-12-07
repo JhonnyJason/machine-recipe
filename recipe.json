@@ -17,21 +17,21 @@
         ["merge", "create"],
         {
             "create": ["sources"],
-            "merge": ["https://github.com/JhonnyJason/app-sample-sources", "*"]
+            "merge": ["https://github.com/JhonnyJason/machine-sample-sources", "*"]
         }
     ],
     "output": [
-        ["directory"],
-        ["create"],
+        ["submodule"],
+        ["merge"],
         {
-            "create": ["appoutput"]
+            "merge": ["https://gitlab.com/lenny09918050/lenny-unlicense"]
         }
     ],
     "testing": [
         ["directory"],
         ["merge"],
         {
-            "merge": ["https://gitlab.com/lenny09918050/lenny-unlicense"]
+            "merge": ["https://gitlab.com/lenny09918050/lenny-unlicense", "*"]
         }
     ]
 }
