@@ -16,7 +16,7 @@
         ["submodule"],
         ["merge", "create"],
         {
-            "create": ["sources"],
+            "create": ["machinesources"],
             "merge": ["https://github.com/JhonnyJason/machine-sample-sources", "*"]
         }
     ],
